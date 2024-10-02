@@ -1,0 +1,93 @@
+@import url('fonts.css');
+@import url('reset.css');
+body{
+    color: #000;
+}
+.main {
+    min-height: 100vh;
+    display: flex;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.text__font--xl {
+    font-size: 48px;
+    color: #222;
+    font-family: Montserrat;
+    line-height: 56px;
+}
+
+.text__font--xxl {
+    font-family: Montserrat;
+    font-size: 64px;
+    line-height: 72px
+}
+
+.text__regular {
+    font-weight: 400;
+}
+
+.text__bold {
+    font-weight: 700;
+}
+
+.text__medium {
+    font-weight: 500;
+}
+.text__semibold {
+    font-weight: 600;
+}
+
+.text__light {
+    font-weight: 300;
+}
+.text__font--s{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text__font--l{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+}
+.text__font--xs{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text__font--m{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px
+}
+
+.btn{
+    color:#222;
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    line-height: 24px; /* 133.333% */
+}
+.btn__yellow{
+    width: 220px;
+    height: 56px;
+    background-color: #ffd900;
+}
+
+.btn__black{
+    width: 191px;
+    color: #FFF;
+    height: 64px;
+   background-color: #000000;
+}

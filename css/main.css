@@ -1,0 +1,145 @@
+@import url('fonts.css');
+@import url('reset.css');
+body{
+    color: #000;
+}
+b{
+    font-weight: 700;
+}
+.main {
+    min-height: 100vh;
+    display: flex;
+    background-color: #F4F5F7;
+}
+.title{
+    width: 100%;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1120px;
+    width: 100%;
+}
+.header{
+    background-color: #F4F5F7;
+    padding-top: 22px;
+    padding-bottom: 162px;
+}
+
+.title__wrapper{
+    position: relative;
+    z-index: 1;
+}
+.title__decor{
+    max-width: 593px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 0;
+}
+
+
+.title__about{
+    margin-bottom: 32px;
+}
+.title__block{
+    max-width: 800px;
+    margin-bottom: 56px;
+}
+.title__subtitle{
+    max-width: 630px;
+}
+.title__advantages{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px 80px;
+    padding-left: 62px;
+    border-left: solid #e1e2e4 2px;
+    z-index: 1;
+    position: relative;
+}
+.title__item{
+    max-width: 480px;
+}
+.text__font--xl {
+    font-size: 48px;
+    color: #222;
+    font-family: Montserrat;
+    line-height: 56px;
+}
+
+.text__font--xxl {
+    font-family: Montserrat;
+    font-size: 64px;
+    line-height: 72px
+}
+
+.text__regular {
+    font-weight: 400;
+}
+
+.text__bold {
+    font-weight: 700;
+}
+
+.text__medium {
+    font-weight: 500;
+}
+.text__semibold {
+    font-weight: 600;
+}
+
+.text__light {
+    font-weight: 300;
+}
+.text__font--s{
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 24px;
+}
+.text__font--l{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px;
+}
+.text__font--xs{
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.text__font--lm{
+    font-family: Montserrat;
+    font-size: 24px;
+    line-height: 32px;
+}
+.text__font--m{
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 24px
+}
+
+.btn{
+    color:#222;
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    line-height: 24px; /* 133.333% */
+}
+.btn__yellow{
+    width: 220px;
+    height: 56px;
+    background-color: #ffd900;
+}
+
+.btn__black{
+    width: 191px;
+    color: #FFF;
+    height: 64px;
+    background-color: #000000;
+}
